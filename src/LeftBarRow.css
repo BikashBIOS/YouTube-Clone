@@ -1,0 +1,42 @@
+.leftbarrow{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.leftbarIcon {
+    color: #606060;
+    font-size: x-large !important;
+}
+
+.leftbarTitle{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.leftbarrow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.leftbarrow:hover > .leftbarIcon {
+    color: red;
+}
+
+.leftbarrow:hover > .leftbarTitle {
+    font-weight: bold;
+}
+
+.leftbarrow.selected{
+    background-color: lightgray;
+}
+
+.leftbarrow.selected > .leftbarTitle {
+    font-weight: bold;
+}
+
+.leftbarrow.selected > .leftbarIcon {
+    color: red;
+}
